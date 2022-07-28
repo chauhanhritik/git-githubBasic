@@ -1,0 +1,2 @@
+git log --> shows the history of commits
+git log -p -n --> shows last "n" no of commits made
