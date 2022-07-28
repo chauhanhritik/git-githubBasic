@@ -1,2 +1,15 @@
+git commit -a -m "message here" --> skips the staging area and commits the files directly(git add not needed to track the files)
+
+
+
+git checkout --> reverts the files to last staged version
+
+git checkout -f --> reverts the file to last commited version
+
+git diff --> compares the "current working tree" with the "last staged area"
+
+git diff --staged --> compares staging area with the last commit
+
 git log --> shows the history of commits
-git log -p -n --> shows last "n" no of commits made
+git log -p -n --> shows last "n" no of commits made with "diff" output
+
