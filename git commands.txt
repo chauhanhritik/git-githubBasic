@@ -1,5 +1,8 @@
 git commit -a -m "message here" --> skips the staging area and commits the files directly(git add not needed to track the files). For this to work, the file should atleast be tracked once, only then it can be committed directly after being modified.
 
+git rm filename --> removes the file from the current wworking directory and staging area
+
+git rm --cached filename --> removes the file from the staging area only and not from the current directory
 
 
 git checkout --> reverts the files to last staged version
