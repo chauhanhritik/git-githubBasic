@@ -1,0 +1,9 @@
+# file names are mentioned as it is-
+filename.ext  --> this will ignore the specified file within current directory and within subdirectories too
+
+*.txt --> ignores all the files with ".txt" extension
+
+/filename.ext --> ignores the file from root directory only and not from subdirectories
+
+foldername/  --> ignores everything within the specified folder. "/" indicates that the names belongs to a folder
+
