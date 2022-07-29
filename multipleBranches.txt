@@ -10,3 +10,6 @@ git branch --> shows available branches
 //to combine branch2 into main branch, we first checkout to master branch and then use the command-
 git merge branch2
 
+//Making a new branch and switching to it at oonce only-
+git checkout -b NewBranch //this creates the new branch and we dont have to run "git branch branchname" command
+
