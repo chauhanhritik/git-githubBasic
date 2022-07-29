@@ -1,0 +1,8 @@
+Default branch --> master
+
+checking out(making) a new branch from master--
+git branch branch2  // makes a new branch by the name of branch2
+git checkout branch2 //changes the current working branch to branch2
+
+
+git branch --> shows available branches
