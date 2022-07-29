@@ -6,3 +6,7 @@ git checkout branch2 //changes the current working branch to branch2
 
 
 git branch --> shows available branches
+
+//to combine branch2 into main branch, we first checkout to master branch and then use the command-
+git merge branch2
+
